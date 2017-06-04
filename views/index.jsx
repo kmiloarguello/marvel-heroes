@@ -31,7 +31,6 @@ export default class Main extends Component {
 //     title: React.PropTypes.number.isRequired
 // };
 
-
 class Header extends Component{
   render(){
     return(
@@ -44,7 +43,7 @@ class Header extends Component{
 
 let style = {
   tableContent:{
-    height: '20px',
+    height: '100px',
     backgroundColor: 'red'
   }
 }

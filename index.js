@@ -8,7 +8,6 @@ var script = DOM.script;
 var link = DOM.link;
 var title = DOM.title;
 
-
 var browserify = require('browserify');
 var babelify = require("babelify");
 
@@ -42,8 +41,7 @@ var data = [
       a: '14959f4295852fad0b89f8227a4fb255',
       b: '3e2dbdccccbbb89611eb0a2a4ea24ed546464ec9'
     }
-]
-console.log(title)
+];
 
 app.use('/', function (req, res) {
   var initialData = JSON.stringify(data);
